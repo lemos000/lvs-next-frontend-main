@@ -1,5 +1,7 @@
 # Projeto LVS
 
+ESSE PROJETO FOI FEITO EM CONJUNTO COM A MATÉRIA DE DOMAIN DRIVEN DESIGN, CLONAR REPO https://github.com/lemos000/lvs-rest.git E UTILIZAR O TOMCAT PARA UTILIZAR A APLICAÇÃO POR COMPLETO
+
 https://youtu.be/dlzOnqD7-R0
 Link do projeto!
 
@@ -18,24 +20,24 @@ Bem-vindo ao projeto LVS! Este projeto é uma aplicação web desenvolvida para 
 
 ## Visão Geral
 
-O projeto LVS é uma aplicação web que permite aos usuários solicitar atendimento online para oficinas cadastradas no aplicativo, incluindo detalhes como nome da oficina, preços sugeridos e problemas associados. A aplicação é construída utilizando React para a interface do usuário, com navegação gerenciada pelo React Router, estilização feita com Styled Components e Vite como ferramenta de build. Posteriormente será integrado com IA e BackEnd em Spring Boot para o funcionamento completo da aplicação!
+O projeto LVS é uma aplicação web que permite aos usuários solicitar atendimento online para oficinas cadastradas no aplicativo, incluindo detalhes como nome da oficina, preços sugeridos e problemas associados. A aplicação é construída utilizando NEXT para a interface do usuário, estilização feita com TAILWIND. Posteriormente será integrado com IA e BackEnd em Spring Boot para o funcionamento completo da aplicação!
 
 ## Funcionalidades
 
+- Consumo de api de autoria própria
 - Visualizar lista de oficinas disponíveis.
 - Detalhamento de cada oficina, incluindo nome e preços sugeridos.
 - Navegação intuitiva entre diferentes seções da aplicação.
 - Página home estilizada
 - Página "Sobre nós"
-- Páginas de Login e SignUp com localStorage
+- Páginas de Login e SignUp com localStorage e Api
 
 ## Tecnologias Utilizadas
 
-- **React**: Biblioteca para construção de interfaces de usuário.
-- **React Router**: Gerenciamento de rotas na aplicação.
-- **Vite**: Ferramenta de build para projetos web.
+- **Next.JS**: Biblioteca para construção de interfaces de usuário.
+- **Tailwind**: Estilização.
 - **TypeScript**: Adiciona tipagem estática ao JavaScript para maior robustez.
-- **Styled-Components**: Para estilizações css ágeis
+
 
 ## Pré-requisitos
 
@@ -50,15 +52,14 @@ Node.Js e NPM
 
 
    ```bash
-   git clone https://github.com/lemos000/lvs.git
-   cd lvs
+   git clone https://github.com/lemos000/lvs-next-frontend-main.git
 
 ```
 
 2.  **Instale as dependências**:
     
     ```bash
-    npm install
+    npm i
     
     ```
     
@@ -70,7 +71,8 @@ Node.Js e NPM
     ```
     
 
-O projeto estará disponível no localhost iniciado (Na minha máquina é o  http://localhost:5173/)
+O projeto estará disponível no localhost iniciado
+
 
 ## Uso
 
